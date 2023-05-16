@@ -9,11 +9,8 @@
     height: 70vh;
     position: relative;
 }
-
-.hero-text h1{
-    
-
-
+.hero-mid h1{
+    padding-top: 4rem !important;
 }
 
 
@@ -45,7 +42,7 @@ img{
 
 .hero-text p{
     font-size: 1.3rem;
-    color: #fff;
+    color: #fbfbff;
     padding: 0.5rem 0 2rem 0;   
 }
 

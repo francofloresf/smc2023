@@ -1,6 +1,7 @@
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar"
 import img5 from "../assets/img5.jpeg"
+import Footer from "../components/Footer";
 function Home() {
   return (
     <>
@@ -14,7 +15,9 @@ function Home() {
       buttonText="Ver Más"
       url="/about"
       btnClass="show"
+      
     />
+      <Footer/>
      
     </>   
   );
