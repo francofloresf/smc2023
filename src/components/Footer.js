@@ -8,6 +8,7 @@ const Footer = () =>{
         <div className="top">
             <div className="logo">
                 <img src={logo} alt="Logo Simcor"/>
+                <i>Ilumina tu vida</i>
             </div>
             <div className="instagram">
                 <a href="/https://www.instagram.com/fraguflores/">
