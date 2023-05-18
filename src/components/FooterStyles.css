@@ -3,7 +3,7 @@
     color: #fff
 }
 .logo{
-    width: 15%;
+    width: 10%;
 }
 .top{
     background-color: black;
@@ -14,18 +14,20 @@
     flex-wrap: wrap;
 }
 
-.top i{
+.bottom i{
     color: #fff;
     font-size: 1.4rem;
-    margin-left: 1.5rem;
+    margin-left: 3rem;
+    padding: 0.1%;
     
 
 }
 
-.top i:hover{
+.bottom i:hover{
     color: #ece92e
     
 }
+
 
 .instagram{
     width: 6%;
@@ -34,7 +36,7 @@
 .bottom{
     background-color: black;
     color: #fff;
-    padding-top: -5rem;
+    padding-top: 0%;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
