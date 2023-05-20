@@ -1,6 +1,9 @@
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import Image6 from "../assets/img6.jpeg"
+import ContactUs from "../components/ContactUs";
+
+
 
 function Contact (){
   return(
@@ -12,6 +15,7 @@ function Contact (){
           title="Contacto"
           btnClass="hide"
         />
+      <ContactUs/>
     </>
   )
 }

@@ -1,0 +1,31 @@
+.contact-info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: black;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    color: aliceblue;
+  }
+  
+  .contact-item p {
+    margin-left: 0.5rem;
+  }
+  
+  .contact-item svg {
+    width: 1.2em;
+    height: 1.2em;
+  }
+  
+.logo{
+    width: 15%;
+}
