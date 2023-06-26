@@ -30,6 +30,14 @@ class Navbar extends Component {
                 <Link className={item.cName} to={item.url}>
                   <i className={item.icon}></i>{item.title}
                 </Link>
+                <a
+                  className={item.cNamee}
+                  href={item.linkk}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className={item.iconn}></i>
+                </a>
               </li>
             )
           })}

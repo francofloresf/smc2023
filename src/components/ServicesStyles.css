@@ -1,0 +1,27 @@
+.column-container {
+    column-count: 1; /* Número de columnas que deseas mostrar */
+    column-gap: 30px; /* Espacio entre las columnas */
+    margin-bottom: 20px;
+   
+}
+.about-container{
+    align-items: center;
+}
+
+.bullet-list {
+    list-style-type: disc; /* Establece el tipo de viñeta como "disc" */
+}
+.section-title {
+margin-bottom: 20px; /* Ajusta el valor según el espacio deseado */
+}
+
+.content-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+.content-table td {
+border: 1px solid #d10505;
+padding: 8px;
+}

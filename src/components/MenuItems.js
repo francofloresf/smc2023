@@ -22,5 +22,13 @@ export const MenuItems = [
         url : "/contact",
         cName : "nav-links",
         
-    },            
+    },
+    {
+        url: "/contacto",
+        cNamee: "nav-links",
+        iconn: "fa-brands fa-whatsapp",
+        linkk: "https://wa.me/3515291902"
+    },
+
+
 ]
