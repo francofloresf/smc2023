@@ -25,3 +25,9 @@ margin-bottom: 20px; /* Ajusta el valor según el espacio deseado */
 border: 1px solid #d10505;
 padding: 8px;
 }
+
+.jobs-images{
+    width: 50%;
+    padding-top: 5%;
+
+}

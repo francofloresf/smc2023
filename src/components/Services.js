@@ -1,4 +1,13 @@
 import "./ServicesStyles.css";
+import jobs1 from "../assets/jobs1.jpg"
+import jobs2 from "../assets/jobs2.jpg"
+import jobs3 from "../assets/jobs3.jpg"
+import jobs4 from "../assets/jobs4.jpg"
+import jobs5 from "../assets/jobs5.jpg"
+import jobs6 from "../assets/jobs6.jpg"
+import jobs7 from "../assets/jobs7.jpeg"
+import jobs8 from "../assets/jobs8.jpeg"
+
 
 function Services() {
     const tableData = [
@@ -73,6 +82,17 @@ function Services() {
           ))}
         </tbody>
       </table>
+
+      <div className="jobs-images">
+        <img alt="" src={jobs1}></img>
+        <img alt="" src={jobs2}></img>
+        <img alt="" src={jobs3}></img>
+        <img alt="" src={jobs4}></img>
+        <img alt="" src={jobs5}></img>
+        <img alt="" src={jobs6}></img>
+        <img alt="" src={jobs7}></img>
+        <img alt="" src={jobs8}></img>
+      </div>
     </div>
   );
 }
