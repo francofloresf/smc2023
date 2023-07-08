@@ -1,11 +1,15 @@
 .footer{
-    padding: 4rem 6rem;
+    padding: 1%;
+    margin-bottom: 0%;
+    padding-bottom: 1%;
     color: #fff
 }
 .logo{
     width: 10%;
 }
 .top{
+    padding-bottom: -1%;
+    margin-bottom: 0%;
     background-color: black;
     display: flex;
     align-items: center;
