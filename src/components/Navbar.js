@@ -15,7 +15,9 @@ class Navbar extends Component {
     return(
       <nav className="NavbarItems">
         <div className="navbar-logo">
-          <img src={logo} alt="Logo Simcor"/>
+          <Link to="/">
+              <img src={logo} alt="Logo Simcor"/>
+           </Link>
         </div>
 
         <div className="menu-icons" onClick={this.handleClick}>

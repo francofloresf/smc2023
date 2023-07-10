@@ -1,21 +1,24 @@
-import "./FooterStyles.css"
-import logo from "../assets/logo-simcor.png"
+import "./FooterStyles.css";
+import logo from "../assets/logo-simcor.png";
+import { Link } from "react-router-dom";
 
+const Footer = () => {
+  return (
+    <div className="top">
+      <div className="logo">
+        <img src={logo} alt="Logo Simcor" />
+      </div>
+      <div className="powered-by">
+        Powered by{" "}
+        <Link to="https://metacode.com.ar" target="_blank">
+          Metacode
+        </Link>
+      </div>
+      <div className="copy-r">
+        <p>&copy; 2023 Derechos de autor. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  );
+};
 
-const Footer = () =>{
-    return (
-        <div classname="footer">
-        <div className="top">
-            <div className="logo">
-                <img src={logo} alt="Logo Simcor"/>
-                <div className="ilumina">
-                    <i>Ilumina tu vida</i>
-                </div>
-            </div>
-        </div>
-        </div>
-    )
-}
-
-
-export default Footer
+export default Footer;
