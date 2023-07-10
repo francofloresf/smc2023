@@ -1,7 +1,9 @@
 import "./AboutUsStyles.css"
+import Fade from 'react-reveal/Slide';
 
 function AboutUs (){
     return(
+        <Fade left cascade>
         <div className="about-container">
             <h1>Nuestra Historia</h1>
             <p>Somos una empresa ubicada en Córdoba, Argentina con una vasta experiencia en instalaciones eléctricas con más de 30 años de trabajos y obras en el rubro eléctrico.</p>
@@ -13,6 +15,7 @@ function AboutUs (){
             Todo esto apunta a un solo objetivo, que es la satisfacción de todas las empresas y particulares que se acercan a nosotros para seguir creciendo y prosperando en todos sus emprendimientos.
             </p>
         </div>
+        </Fade>
     )
 }
 
