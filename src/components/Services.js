@@ -8,7 +8,7 @@ import jobs5 from "../assets/jobs5.jpg"
 import jobs6 from "../assets/jobs6.jpg"
 import jobs7 from "../assets/jobs7.jpeg"
 import jobs8 from "../assets/jobs8.jpeg"
-import Fade from 'react-reveal/Slide';
+import { Fade } from "react-awesome-reveal";
 
 function Services() {
   const tableData = [
@@ -46,7 +46,7 @@ function Services() {
   };
 
   return (
-    <Fade left cascade>
+    <Fade left >
     <div className="about-container">
       <h1>Nuestros Servicios</h1>
       <h3 className="section-title">
